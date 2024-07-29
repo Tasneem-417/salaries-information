@@ -34,7 +34,7 @@ a1, a2, a3 = st.columns(3)
 grouped_max = df2.groupby('Job Title')['Salary'].max()
 
 # Displaying metrics
-a1.metric("Maximum Salary in Advanced Python Developer", grouped_max.get("Advanced Python Developer", "N/A"))
+#a1.metric("Maximum Salary in Advanced Python Developer", grouped_max.get("Advanced Python Developer", "N/A"))
 #a2.metric("Maximum Salary in AVP-Java Developer", grouped_max.get("AVP-Java Developer", "N/A"))
 #a3.metric("Maximum Salary in Advanced Database Administrator", grouped_max.get("Advanced Database Administrator", "N/A"))
 
