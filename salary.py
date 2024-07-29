@@ -39,7 +39,7 @@ grouped_max = df2.groupby('Job Title')['Salary'].max()
 #a3.metric("Maximum Salary in Advanced Database Administrator", grouped_max.get("Advanced Database Administrator", "N/A"))
 
 df = df.sample(n=20)
-st.header("some information about random samples")
+st.header("some information about random samples in salaries")
 st.write(" ")
 st.write(df)
 
